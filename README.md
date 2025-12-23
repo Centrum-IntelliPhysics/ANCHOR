@@ -5,7 +5,7 @@
 In this work, we propose ANCHOR (Adaptive Numerical Correction for High-fidelity Operator Rollouts), an online, instance-aware, error-controlled hybrid inference framework that enables stable and accurate long-horizon prediction for nonlinear, time-dependent PDEs. ANCHOR treats a pretrained NO as the primary inference engine and adaptively couples it with a classical numerical solver through a physics-informed, residual-based error estimator. Inspired by adaptive time-stepping in numerical analysis, ANCHOR continuously monitors an exponential moving average (EMA) of the normalized PDE residual to detect accumulating error and trigger corrective solver interventions without requiring access to ground-truth solutions.
 
 ## Proposed Architecture
-![Proposed Architecture](./anchor_schematic.pdf)
+![Proposed Architecture](./anchor_schematic.png)
 
 ## Results
 <table>
