@@ -59,6 +59,19 @@ In this work, we propose ANCHOR (Adaptive Numerical Correction for High-fidelity
       <td>0.99</td>
     </tr>
     <tr>
+      <td rowspan="2"><b>2D Cahn-Hilliard</b></td>
+      <td>#1</td>
+      <td>12.436</td>
+      <td>0.375</td>
+      <td>8.87</td>
+    </tr>
+    <tr>
+      <td>#2</td>
+      <td>12.502</td>
+      <td>0.373</td>
+      <td>8.11</td>
+    </tr>
+    <tr>
       <td rowspan="2"><b>3D Heat</b></td>
       <td>#1</td>
       <td>2.735</td>
